@@ -1,5 +1,3 @@
-# Some basic knowledge about Python.
-
 ## What is Python?
 Python is a dynamically typed , interactive , object-oriented programming language designed by Guido van Rossum. 
 
