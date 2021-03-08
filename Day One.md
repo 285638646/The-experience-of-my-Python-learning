@@ -34,7 +34,7 @@ print("your age is " , age)
 
 ## Data type for python
 
-![image](https://github.com/285638646/The-experience-of-my-Python-learning/blob/main/Date%20type.png)
+![image](https://github.com/285638646/The-experience-of-my-Python-learning/blob/Basic-Knowledge/Date%20type.png)
 
 
 
