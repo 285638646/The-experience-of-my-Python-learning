@@ -1,8 +1,8 @@
-## How to use notes in Python?
+## Notes
 1. We use # to note single line.
 2. We use ''' ''' or """ """ to note multi-line.
 
-## How to show your result on the screen
+## Show your result on the screen
 We use the 'print' function to display the date , text or symbol from your program.
 
 ``` 
@@ -21,7 +21,7 @@ Differ from the language C , you can use the 'print' function more smartly.
 
 ---
 
-## How to type your value to the program
+## Type your value to the program
 We use the 'input' function to give the value artificially. And keep the value in the variables.
 
 ```
@@ -32,10 +32,12 @@ print("your age is " , age)
 
 ---
 
-## Data type for python
+## Data type
 
 ![image](https://github.com/285638646/The-experience-of-my-Python-learning/blob/Basic-Knowledge/Date%20type.png)
 
+
+## Identifier
 
 
 
