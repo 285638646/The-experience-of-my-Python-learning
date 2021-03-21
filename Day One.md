@@ -94,4 +94,30 @@ print(math.ceil(19.9))
 
 print(math.floor(19.9)
 #Rounded down
+
+print(math.modf(22.3)
+#Return the integer part and the float part
+
+print(math.sqrt(16)
+#square root
 ```
+
+```
+import random
+
+print(random.choice([1,3,5,6,8]))
+print(random.choice("random"))
+#choose randomly
+
+
+
+```
+
+range(x):return an array conclude x number biginning from 0.
+
+range(x) + 1:return an array conclude x number biginning from 1.
+
+range(1,x+1):return an array conclude x number biginning from 1.
+
+
+
