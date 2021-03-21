@@ -34,3 +34,7 @@ The absolute path refers to the path where the file actually exists on the hard 
 
 There are four commom bases in Python : binary system , octonary number system , decimal system , hexadecimal.
 
+### The process of program execution
+
+Top-down sequential execution
+
