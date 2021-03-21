@@ -41,7 +41,57 @@ print("your age is " , age)
 
 ![image](https://github.com/285638646/The-experience-of-my-Python-learning/blob/Basic-Knowledge/Identifier.jpg)
 
+## Number type
+
+integer , float and complex number.
+
+## Mathematical function
+
+abs(x):Returns the absolute value of a number
+
+```
+a = -10
+print(abs(a))
+```
+
+max(x,y):Returns the maximum value of a given parameter
+
+```
+print(max(1,2,3,4,5,6,7,8))
+
+```
+
+min(x,y):Returns the minimum  value of a given parameter
 
 
+```
+print(min(1,2,3,4,5,6,7,8))
+
+```
 
 
+pow(x,y):Find x to the power of y
+
+```
+print(pow(2,5))
+
+```
+
+round(float,digit):For rounding of floating point numbers
+
+```
+print(round(3.404,1))
+
+```
+
+import *Library Functions*
+
+```
+import math
+
+print(math.ceil(19.9))
+#Rounded up
+
+print(math.floor(19.9)
+#Rounded down
+```
