@@ -29,3 +29,8 @@ So if your computer is 32-bit operating system ,  the memory more than 4 (GB) wi
 ### What is the diffence between *Absolute path* and *Relative path* ?
 
 The absolute path refers to the path where the file actually exists on the hard disk. And the Relative path refers to position relative to one's goal.
+
+### About common bases in Python.
+
+There are four commom bases in Python : binary system , octonary number system , decimal system , hexadecimal.
+
