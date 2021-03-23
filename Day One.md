@@ -109,7 +109,18 @@ print(random.choice([1,3,5,6,8]))
 print(random.choice("random"))
 #choose randomly
 
+print(random.randrange(start,stop,step))
+#The stop number is not including.
 
+print(random.random())
+#return a number randomly in [0,1).
+
+
+random.shuffle(list)
+#Randomly sort the data in the list
+
+random.uniform(a,b)
+#return a float number randomly in [a,b].
 
 ```
 
@@ -120,4 +131,38 @@ range(x) + 1:return an array conclude x number biginning from 1.
 range(1,x+1):return an array conclude x number biginning from 1.
 
 
+## Expression:A formula composed of variables , constants and operators.
 
+Arithmetic Operator: + - * / % **  //
+Arithmetic expression: 1 +2 2*3 a/3      * Perform related mathematical operations *
+Value:The results obtained
+Assignment operator: =
+Compound operator： += -= *= /= %=  **= //=   a+=b
+
+## Commonly used functions
+
+if expression:
+    sentence 1
+else 
+    sentence 2
+    
+   
+function：Determine whether the given conditions are met, and decide to perform one of the two operations given according to the result of the determination (true or false)
+    
+```
+
+x = int(input("please input a integer："))
+if x % 2 == 0:
+    print("It is an even number")
+else:
+    print("It is not an even number")
+
+```
+
+## Bitwise operator
+ 
+& : Bitwise AND operator
+| : Bitwise OR operator
+^ : Bitwise exclusive OR operator
+~ : Bitwise negation operator
+#formula：-（a+1）
