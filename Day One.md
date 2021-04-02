@@ -166,3 +166,41 @@ else:
 ^ : Bitwise exclusive OR operator
 ~ : Bitwise negation operator
 #formula：-（a+1）
+
+
+## Logical Operator
+
+ADN : If all the conditions are true , then the result is true. Otherwise it is false
+OR :  If one of the conditions is true at least  , then the result is true. Otherwise it is false.
+NOTL : Output the opposite result. 
+
+## Member operator
+
+IN : If the program find the value in the specified array , then output true.
+NOT IN : If the program can't find the value in the specified array , then output true.
+
+## Identity operator
+
+IS : If two value is the same , then output true.
+IS NOT : If two value isn't the same , then output true.
+
+## Operator precedence
+
+First level : **
+Second level : ~ + - （sign）
+Third level : * / % //
+Forth level : + - (plus and subtract)
+Fifth level : >> <<
+Sixth level : &
+Seventh level : ^ |
+Eighth level : <= >= > <
+Ninth level : == !=
+Tenth level : = %= += -= //=
+Eleventh level : is is not
+Twelfth level : in noy in 
+Thirteenth level : not or and
+
+## short-circuit principle
+
+When there have more than two or and and , the program will break and output the result if it can be certisfied before end.
+
