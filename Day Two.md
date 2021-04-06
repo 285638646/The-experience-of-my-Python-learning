@@ -90,4 +90,6 @@ str1.upper()
 str1.swapcase()  :  Uppercase to lowercase and lowercase to uppercase.
 str1.capitalize() : Capitalize the first letter
 str1.title() : capitalize the first letter of every words
+str1.rjust() 
+str1.zfill()
 
