@@ -166,3 +166,48 @@ else:
     print("%d is a prime number." % num)
 ```
 
+```
+
+num = 3
+i = 2
+a = [1,2]
+while num < 1000:
+    if i < num :
+            if num % i == 0:
+               num += 1
+               i = 2
+            else:
+               i += 1
+    else:
+        a.append(num)
+        num += 1
+        i = 2
+#else:
+   # print(a)
+
+
+pro = int(input("plese input a number:"))
+b = [1]
+j = 1
+c = a[j]
+while j <= pro:
+    if  pro % c == 0:
+        b.append(c)
+        pro /= c
+        j = 1
+        c = a[j]
+    else:
+        j += 1
+        c = a[j]
+else:
+   k = 0
+   d = len(b)
+   pro = int(pro)
+   while k < d:
+       pro *= b[k]
+       k += 1
+   else:
+    print("The prime factor of %d is %s " % (pro,b))
+    
+ ```
+
