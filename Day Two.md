@@ -85,11 +85,84 @@ sometimes we use r"" to not escape the character in brakets.
 
 print(eval(" 12+3 "))
 len()
-str1.lower()
-str1.upper()
-str1.swapcase()  :  Uppercase to lowercase and lowercase to uppercase.
-str1.capitalize() : Capitalize the first letter
-str1.title() : capitalize the first letter of every words
-str1.rjust() 
-str1.zfill()
+str.lower()
+str.upper()
+str.swapcase()  :  Uppercase to lowercase and lowercase to uppercase.
+str.capitalize() : Capitalize the first letter
+str.title() : capitalize the first letter of every words
+str.rjust() 
+str.zfill()
+str.count(str[,start][,end])
+str.find(str[,start][,end])
+str.index(str[,start][,end])
+str.rindex（）
+str.lstrip()
+str.rstrip()
+str.strip()
+
+# statement while
+
+while expression:
+     sentence
+     else:
+     expression
+```
+
+num = 1
+sum = 0
+while num <= 100:
+    sum += num
+    num += 1
+else:
+    print(sum)
+
+```
+
+```
+
+num = 100
+total = 0
+while num < 1000:
+    a = num % 10
+    b = num // 10 % 10
+    c = num // 100
+    if a**3 + b**3 + c**3 == num:
+        total += 1
+        print(num)
+        num += 1
+    else:
+        num +=1
+else:
+    print("there are %d number of daffodils." % total)
+
+```
+
+```
+num = 10000
+total = 0
+while num < 100000:
+    num = str(num)
+    if num[4] == num[0] and num[3] == num[1]:
+        total += 1
+        num = int(num) + 1
+    else:
+        num = int(num) + 1
+
+else:
+    print("there are %d palindromic numbers." % total)
+```
+
+```
+num = int(input("Please input a number:"))
+i = 2
+while i < num:
+    if num % i == 0:
+        print ("%d is not a prime number." % num)
+        i += 1
+        break
+    else:
+        i += 1
+else:
+    print("%d is a prime number." % num)
+```
 
