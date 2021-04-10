@@ -60,3 +60,66 @@ while num != random:
 else:
     print("Congratulations , this number is %d" % random)
 ```
+
+Endless loop：Expression is always true.
+
+## statament for
+
+for variables in gather:
+    sentence
+
+```
+
+for i in [1,2,3,4,]:
+   print(i)
+```
+
+```
+for index, m in enumerate([1,2,3,4,5]):
+   print(index,m)
+```
+
+break
+countinue
+
+```
+i = 1
+j = 1
+num = []
+MT = []
+while i < 10 :
+    while j <= i:
+        new = (" %d * %d = %d " % (i,j,i*j))
+        num.append(new)
+        j += 1
+    else:
+        MT.append(num)
+        num = []
+        j = 1
+        i += 1
+else:
+    k = 0
+    for k in range(0,9):
+        print(MT[k])
+```
+
+```
+
+print("Please input two number : ")
+i = 0
+inp = []
+CD = []
+while i < 2:
+    inp.append(int(input()))
+    i += 1
+else:
+    for j in range(1,max(inp)+1):
+        if inp[0] % j == 0 and inp[1] % j == 0:
+            CD.append(j)
+            j += 1
+        else:
+            j += 1
+    else:
+        print(" The greatest common divisor of number %d and %d is %d " % (inp[0],inp[1],max(CD)))
+
+```
