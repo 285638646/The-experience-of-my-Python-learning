@@ -140,3 +140,35 @@ else:
     print(''.join(change))
 
 ```
+
+```
+
+import random
+range1 = range(48,58)
+range2 = range(65,91)
+range3 = range(97,123)
+sco = []
+i=0
+while i < 123:
+    if i in range1:
+        sco.append(i)
+        i += 1
+    elif i in range2:
+        sco.append(i)
+        i += 1
+    elif i in range3:
+        sco.append(i)
+        i += 1
+    else:
+        i += 1
+else:
+    AC = []
+    i = 0
+    while i < 6:
+        new = random.choice(sco)
+        AC.append(chr(new))
+        i += 1
+    else:
+        print(''.join(AC))
+
+```
