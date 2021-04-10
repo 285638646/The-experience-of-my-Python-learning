@@ -123,3 +123,20 @@ else:
         print(" The greatest common divisor of number %d and %d is %d " % (inp[0],inp[1],max(CD)))
 
 ```
+
+```
+
+str = input("please input a string : ")
+i = 0
+change = list(str)
+while i in range(0,len(str)):
+    if ord(str[i]) in range(65,91):
+        change[i] = chr(ord(str[i])+32)
+        i += 1
+    elif ord(str[i]) in range(97, 123):
+        change[i] = chr(ord(str[i])-32)
+        i += 1
+else:
+    print(''.join(change))
+
+```
