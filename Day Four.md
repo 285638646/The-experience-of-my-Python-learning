@@ -69,7 +69,7 @@ name = input("please enter the name of the lyric file :")
 form = input("please enter the form of the lyric file :")
 open_address = address + "\\" + name + "." + form
 File = open(open_address, "r")
-# File = open(r'C:\Users\lenovo\Desktop\华语群星 - 北京东路的日子.lrc', "r")
+# example : File = open(r'C:\Users\lenovo\Desktop\华语群星 - 北京东路的日子.lrc', "r")
 Lyric = File.read()
 File.close()
 # Importing files
@@ -88,19 +88,21 @@ value = ""
 dic = {}
 i = 0
 j = 1
+# Set initial value
+
 while i in range(0,len(Lyric)-1):
-    if Lyric[i][1] == '0':
+    if Lyric[i][1] == '0':  # Determine if it is a timestamp like [00:00,00]
         key = Lyric[i]
         while Lyric[i+j][1] != '0' and i+j in range(0,len(Lyric)-1):
             value += "  "
-            value += Lyric[i+j]
+            value += Lyric[i+j]  # If it is not a timestamp like [00:00,00] ,then it is Lyric.
             value = value.replace(" ","",1)
             j += 1
         else:
-            dic.update({key: value})
+            dic.update({key: value}) # add the Key and Value to the dictionary
             i += 1
-            if i == len(Lyric) - 1 and Lyric[len(Lyric) - 1][1] != '0':
-                value += "  "
+            if i == len(Lyric) - 1 and Lyric[len(Lyric) - 1][1] != '0': # The above method can't judge the last element.
+                value += "  "                                           # So make additional judgments
                 value += Lyric[len(Lyric) - 1]
                 value = value.replace(" ", "", 1)
                 dic.update({key: value})
@@ -115,6 +117,7 @@ else:
     t = input("please enter time like [12:34.56] : ")
     k = 0
     num = 0
+    # The following method is used to determine whether the input meets the requirements
     while k in range(0,len(t)):
         if ord(t[k]) in range(48,58):
             num += 1
@@ -122,7 +125,7 @@ else:
         else:
             k += 1
     else:
-        while num != 6 or t[0] != "[" or t[len(t)-1] != "]":
+        while num != 6 or t[0] != "[" or t[len(t)-1] != "]": # The input must be six digits , and begin with [ ,end with ].
             print("Incorrect input.")
             t = input("please enter time like [12:34.56] : ")
             k = 0
@@ -137,7 +140,7 @@ else:
             print("Entered correctly.")
     l = time[0]
     x = 0
-    while t > max(time):
+    while t > max(time):  # when time is bigger than max(time) , there should be no Lyric.
         print("but song is over")
         t = input("please enter another time like [12:34.56] : ")
         k = 0
@@ -165,7 +168,7 @@ else:
         l = time[0]
         x = 0
     else:
-        while x in range(0,len(time)):
+        while x in range(0,len(time)): # judge the nearest timestamp.
             if  time[x] < l and time[x] > t:
                 l = time[x]
                 x += 1
