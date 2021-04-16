@@ -179,6 +179,11 @@ else:
            
 ```
 
+set() : Similar to dict , is a gather of key without value , the input should be list , tuple or dict.
+add() :
+
+
+
 ## Function
 
 
