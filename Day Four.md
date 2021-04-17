@@ -181,7 +181,31 @@ else:
 
 set() : Similar to dict , is a gather of key without value , the input should be list , tuple or dict.
 add() :
+update() : insert a list , tuple and string but only the contents.
+remove() :
 
+Find the intersection and union.
+
+```
+s1 = set([1,2,3])
+s2 = set([2,3,4])
+a = s1 & s2
+b = s1 | s2
+print(a)
+print(b)
+```
+
+iter()
+isinstance() : iterator
+
+```
+endstar = 'end'
+str = ''
+a = iter(input,endstar)
+for line in a:
+    str += line + "\n"
+print(str)
+```
 
 
 ## Function
