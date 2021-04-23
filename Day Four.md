@@ -210,4 +210,20 @@ print(str)
 
 ## Function
 
+def function name (parameter1，parameter2):
+    sentence
+    return expression
 
+**Keyword parameter
+  Default parameters
+  Variable length parameter **  : *parameter **parameter (dictionary x=2）
+  
+
+def func(*one,**two):
+   pass
+   Anonymous parameters
+
+lambda
+
+sum = lambda num1,num2:num1 + num2
+print(sum(1,2))
