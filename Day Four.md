@@ -227,3 +227,47 @@ lambda
 
 sum = lambda num1,num2:num1 + num2
 print(sum(1,2))
+
+
+## Decorator
+
+def outer(func):
+    def inner():
+        func()
+    return()
+    
+## Partial function
+def int(str,base = 2):
+    return(str,base)
+    
+import functools
+int = functiontools.partial(int,base = 2)
+ 
+ 
+## Variable scope
+ 
+ Local scope
+ Global scope
+ Built-in scope
+ 
+## exception handling
+ 
+try:
+   sentence 1
+except error code as e:
+   sentence 2
+except error code as e:
+   sentence 3
+ ...
+ else: (Dispensable)
+     sentence 4
+     
+ try:
+     print(4/0)
+ except:
+     print()
+     
+ try:
+    print()
+except （error 1 and error 2)
+    print()
