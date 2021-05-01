@@ -271,3 +271,17 @@ except error code as e:
     print()
 except （error 1 and error 2)
     print()
+    
+try:
+   sentence 1
+except error code as e:
+   sentence 2
+except error code as e:
+   sentence 3
+ ...
+finally: (Dispensable)
+     sentence 4
+    
+## assert
+
+assert (sentence)
