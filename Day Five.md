@@ -30,3 +30,42 @@ filename.flish()
 
 filename.encode()
 filename.decode()
+
+
+import pickle
+
+
+pickle.dump(filename,f)
+pickle.load(filename)
+
+
+## OS module
+
+os.name()
+os.uname()
+os.environ()
+os.environ.get()
+os.curdir()
+os.getcwd()
+os.mkdir()
+os.listdir()
+os.rmdir()
+os.stat()
+os.remove()
+os.system("order sentence")  : notpad , write , mspaint ,msconfi 
+
+os.path
+os.path.join(path1,path2)
+os.path.split()
+os.path.isdir()
+os.path.isfile()
+os.path.getsize()
+os.path.exists()
+os.path.dirname()
+os.path.basename()
+
+
+## window control
+
+[method](https://blog.csdn.net/qq_23934063/article/details/79584525)
+
