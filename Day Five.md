@@ -69,3 +69,6 @@ os.path.basename()
 
 [method](https://blog.csdn.net/qq_23934063/article/details/79584525)
 
+## Memory modification
+
+[method](https://www.cnblogs.com/pygo/p/12274652.html)
