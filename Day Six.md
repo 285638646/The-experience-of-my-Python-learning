@@ -1,32 +1,15 @@
-# file handing
-## open file
-open(path,flag[,encoding],[errors])
+## Recursive call
+## Recursive function
 
-flag : Open method
-r  rb  r+  w  wb  w+  a  a+
+method:
 
-encoding : encoding form  utf - 8
-errors  : error handing ignore
-
-## read file
-
-filename.read(number)
-filename.readline()  # include line break
-filename.readlines()
-filename.seek()
-
-## close file
-filename.close()
-
-with open() as filename:
+1.Write out critical conditions
+2.find the relationship between this time and the last time.
+3.Recall the last result
 
 
-## write file
-
-filename.write()
-filename.flish()
-
-## encode and decode
-
-filename.encode()
-filename.decode()
+def sum(n):
+    if n==1:
+        return 1
+    else:
+        return 
