@@ -13,3 +13,10 @@ def sum(n):
         return 1
     else:
         return 
+        
+stack
+
+
+stack.append()
+c = stack.pop()
+
